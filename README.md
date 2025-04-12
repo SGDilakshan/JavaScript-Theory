@@ -311,3 +311,16 @@ This README summarizes examples of the ternary (conditional) operator in JavaScr
 Example code provided covers all these use cases.
 
 ---------------------------------------------------------------------------------------
+
+# 14_Bitwase Operations in JavaScript
+This README provides examples of common bitwise operations in JavaScript.
+### Bitwise Operators:
+- **Bitwise AND (&)**: Performs a bitwise AND operation.
+- **Bitwise OR (|)**: Performs a bitwise OR operation.
+- **Bitwise NOT (~)**: Inverts all the bits.
+- **Bitwise XOR (^)**: Performs a bitwise XOR operation.
+- **Left Shift (<<)**: Shifts the bits of a number to the left.
+- **Right Shift (>>)**: Shifts the bits of a number to the right.
+- **Unsigned Right Shift (>>>)**: Shifts the bits of a number to the right, ensuring a positive result.
+
+---------------------------------------------------------------------------------------
