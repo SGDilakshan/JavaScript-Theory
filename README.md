@@ -371,3 +371,20 @@ In JavaScript, increment (`++`) and decrement (`--`) operators are used to incre
 These operators are used to perform quick increments or decrements while accessing the current value of the variable in expressions.
 
 ---------------------------------------------------------------------------------------
+
+# 17_If Statement in JavaScript
+The `if` statement in JavaScript is used to execute a block of code only if a specified condition is `true`.
+## Key Points:
+- The `if` statement allows conditional execution of code based on a given condition.
+- If the condition evaluates to `true`, the code inside the `if` block runs.
+- If the condition evaluates to `false`, the code inside the `if` block is skipped.
+- It is commonly used for decision-making in programs.
+
+## Example Use Case:
+- Checking user input before executing certain actions.
+- Validating form fields in web applications.
+- Controlling program flow based on specific conditions.
+
+The `if` statement is a fundamental concept in JavaScript for implementing logic and decision-making.
+
+---------------------------------------------------------------------------------------
