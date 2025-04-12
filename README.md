@@ -237,3 +237,16 @@ Comparison operators in JavaScript are used to compare two values or expressions
 - `!=` checks for inequality in **values**, while `!==` checks for inequality in **both values and data types**.
 
 ---------------------------------------------------------------------------------------
+
+## 10_Relational Operators in JavaScript
+Relational operators are used to compare two values and return a boolean value (`true` or `false`) based on the comparison. These operators help you perform basic comparisons between numbers, strings, or variables.
+
+The main relational operators in JavaScript are:
+1. **`>` (greater than)**: Returns `true` if the value on the left is greater than the value on the right.
+2. **`<` (less than)**: Returns `true` if the value on the left is less than the value on the right.
+3. **`>=` (greater than or equal to)**: Returns `true` if the value on the left is greater than or equal to the value on the right.
+4. **`<=` (less than or equal to)**: Returns `true` if the value on the left is less than or equal to the value on the right.
+
+These relational operators are useful for making decisions in your code and controlling the flow of your program based on conditions.
+
+---------------------------------------------------------------------------------------
