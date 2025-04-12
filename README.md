@@ -195,3 +195,20 @@ This project demonstrates basic **arithmetic operations** in JavaScript. Arithme
 Understanding these operators is essential for handling numerical calculations in JavaScript. 🚀  
 
 ---------------------------------------------------------------------------------------
+
+# 08_Assignment Operators in JavaScript 
+## Summary:
+In JavaScript, **assignment operators** are used to assign values to variables while performing specific operations. The basic assignment operator (`=`) assigns a value to a variable. There are also compound assignment operators that combine an operation with assignment in a single step, such as:
+
+- `+=` (Addition assignment)
+- `-=` (Subtraction assignment)
+- `*=` (Multiplication assignment)
+- `/=` (Division assignment)
+- `%=` (Modulus assignment)
+- `**=` (Exponentiation assignment)
+
+These operators help make the code more concise and readable, as they allow combining operations with the assignment of the result. The use of assignment operators simplifies repetitive tasks and enhances efficiency when performing mathematical calculations or operations on variables.
+
+Assignment operators are widely used in loops, conditionals, and many other areas of JavaScript to perform calculations and assign values to variables simultaneously.
+
+---------------------------------------------------------------------------------------
