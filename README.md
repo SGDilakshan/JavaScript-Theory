@@ -340,3 +340,34 @@ The Nullish Coalescing Operator (`??`) in JavaScript is used to return the right
 The `??` operator is an effective tool for handling nullish values in JavaScript, offering a clean and readable way to work with default values.
 
 ---------------------------------------------------------------------------------------
+
+# 16_Increment or Decrement in JavaScript
+In JavaScript, increment (`++`) and decrement (`--`) operators are used to increase or decrease a variable’s value by 1.
+### Key Operators:
+- **Postfix Increment (`a++`)**: Increments the variable after its value is used.
+- **Prefix Increment (`++a`)**: Increments the variable before its value is used.
+- **Postfix Decrement (`a--`)**: Decrements the variable after its value is used.
+- **Prefix Decrement (`--a`)**: Decrements the variable before its value is used.
+
+### Examples:
+1. **Postfix Increment**: The value of `a` is used first, and then `a` is incremented.
+   - Example: `a++` → `a` is used and then incremented.
+   
+2. **Prefix Increment**: The value of `a` is incremented first, and then the new value of `a` is used.
+   - Example: `++a` → `a` is incremented and then used.
+
+3. **Postfix Decrement**: The value of `a` is used first, and then `a` is decremented.
+   - Example: `a--` → `a` is used and then decremented.
+
+4. **Prefix Decrement**: The value of `a` is decremented first, and then the new value of `a` is used.
+   - Example: `--a` → `a` is decremented and then used.
+
+### Example Outputs:
+- **Postfix Increment**: If `x = 3`, after `y = x++`, `x` becomes 4 and `y` remains 3.
+- **Prefix Increment**: If `i = 3`, after `j = ++i`, both `i` and `j` become 4.
+- **Postfix Decrement**: If `m = 6`, after `n = m--`, `m` becomes 5 and `n` remains 6.
+- **Prefix Decrement**: If `p = 6`, after `q = --p`, both `p` and `q` become 5.
+
+These operators are used to perform quick increments or decrements while accessing the current value of the variable in expressions.
+
+---------------------------------------------------------------------------------------
