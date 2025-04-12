@@ -21,3 +21,38 @@ This HTML file demonstrates how to include **JavaScript** in a webpage using bot
 This example introduces **JavaScript integration** in HTML, helping you understand inline and external scripting. 🚀  
 
 ---------------------------------------------------------------------------------------
+
+# 02_Console in JavaScript  
+This project demonstrates how to use the **JavaScript Console** for debugging and logging information.  
+## Key Features:  
+- **Alert Message (Commented Out in `script.js`)**  
+  - `alert("Welcome");` – Displays a pop-up alert message.  
+
+- **Console Logging (`console.log`)**  
+  - `console.log("Welcome to JavaScript");` – Prints a text message.  
+  - `console.log(13456);` – Prints a number.  
+  - `console.log(18.25);` – Prints a decimal number.  
+  - `console.log(true);` – Prints a boolean value.  
+  - `console.log([58,78,96,35]);` – Prints an array.  
+  - `console.log([{fname:'Dilakshan', age:25}]);` – Prints an object.  
+
+- **Console Table (`console.table`)**  
+  - Displays structured object data in a table format.  
+
+- **Console Errors & Warnings**  
+  - `console.error("Custom Sample Error");` – Displays an error message.  
+  - `console.warn("Custom Sample Warning");` – Displays a warning message.  
+
+- **Console Timing (`console.time` & `console.timeEnd`)**  
+  - Measures the execution time of a loop.  
+
+- **Console Clear (`console.clear`)**  
+  - Clears the console output.  
+
+## File Structure:  
+- `index.html` – Loads the external JavaScript file.  
+- `js/script.js` – Contains JavaScript console functions.  
+
+This example helps you understand how to use the **JavaScript console** for debugging and performance analysis. 🚀  
+
+---------------------------------------------------------------------------------------
