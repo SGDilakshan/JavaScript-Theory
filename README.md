@@ -324,3 +324,19 @@ This README provides examples of common bitwise operations in JavaScript.
 - **Unsigned Right Shift (>>>)**: Shifts the bits of a number to the right, ensuring a positive result.
 
 ---------------------------------------------------------------------------------------
+
+# 15_Nullish Coalescing Operator (??)
+The Nullish Coalescing Operator (`??`) in JavaScript is used to return the right-hand operand when the left-hand operand is `null` or `undefined`.
+### Key Points:
+- If the left-hand value is `null` or `undefined`, the right-hand value is returned.
+- If the left-hand value is not `null` or `undefined`, it is returned as-is.
+- It is particularly useful for providing default values when working with variables or object properties that may be `null` or `undefined`.
+- The operator does not consider other falsy values like `0`, `false`, or an empty string (`""`).
+
+### Common Use Cases:
+- Setting default values for variables.
+- Assigning fallback values to object properties that are `null` or `undefined`.
+
+The `??` operator is an effective tool for handling nullish values in JavaScript, offering a clean and readable way to work with default values.
+
+---------------------------------------------------------------------------------------
