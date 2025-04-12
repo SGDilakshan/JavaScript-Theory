@@ -212,3 +212,28 @@ These operators help make the code more concise and readable, as they allow comb
 Assignment operators are widely used in loops, conditionals, and many other areas of JavaScript to perform calculations and assign values to variables simultaneously.
 
 ---------------------------------------------------------------------------------------
+
+## 09_Comparison Operators in JavaScript
+Comparison operators in JavaScript are used to compare two values or expressions. These operators return a Boolean value (`true` or `false`) based on the comparison result.
+### Key Comparison Operators:
+1. **`==` (Equality Operator)**:
+   - Compares the **values** of two operands, ignoring their data types. If the values are equal, it returns `true`; otherwise, `false`.
+   - Example: `a == b`
+
+2. **`===` (Strict Equality Operator)**:
+   - Compares both the **value** and the **data type** of two operands. If both are equal, it returns `true`; otherwise, `false`.
+   - Example: `a === b`
+
+3. **`!=` (Inequality Operator)**:
+   - Compares the **values** of two operands to check if they are not equal. If they are not equal, it returns `true`; otherwise, `false`.
+   - Example: `a != b`
+
+4. **`!==` (Strict Inequality Operator)**:
+   - Compares both the **value** and the **data type** of two operands to check if they are not equal. If either the value or the data type differs, it returns `true`; otherwise, `false`.
+   - Example: `a !== b`
+
+### Key Points:
+- `==` compares **only values**, while `===` compares both **values and data types**.
+- `!=` checks for inequality in **values**, while `!==` checks for inequality in **both values and data types**.
+
+---------------------------------------------------------------------------------------
