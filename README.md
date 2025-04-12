@@ -290,3 +290,24 @@ JavaScript provides two types of equality operators:
 - Strict equality (`===`) is preferred for **better code reliability and clarity**.
 
 ---------------------------------------------------------------------------------------
+
+# 13_Conditional or Ternary Operator in JavaScript
+This README summarizes examples of the ternary (conditional) operator in JavaScript.
+1. **Simple Ternary Operation:**
+   - Checks if a condition (age) is true and returns corresponding values.
+   
+2. **Handling Null or Undefined:**
+   - Uses the ternary operator to handle null/undefined values in a function.
+
+3. **Object Usage:**
+   - Demonstrates working with objects and accessing their properties.
+
+4. **Ternary with Object Property:**
+   - Uses the ternary operator to check if an object property exists.
+
+5. **Conditional Chains:**
+   - Implements multiple conditions in a chain using the ternary operator.
+
+Example code provided covers all these use cases.
+
+---------------------------------------------------------------------------------------
