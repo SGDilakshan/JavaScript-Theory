@@ -261,3 +261,32 @@ This project demonstrates the usage of **logical operators** in JavaScript: AND 
 These operators are essential for handling complex logical checks in conditional structures like `if` statements, loops, and more.
 
 ---------------------------------------------------------------------------------------
+
+# 12_Strict equality or Identity Operator in JavaScript
+JavaScript provides two types of equality operators:
+1. **Loose Equality (`==`)**:  
+   - Compares values **without checking data types**.
+   - Performs **type coercion**, converting values to a common type before comparison.
+   - Example: `10 == "10"` → `true`
+
+2. **Strict Equality (`===`)**:  
+   - Compares **both values and data types**.
+   - No type conversion occurs; both values must be of the same type to return `true`.
+   - Example: `10 === "10"` → `false`
+
+## Key Observations:
+
+- `0 == false` → `true`, but `0 === false` → `false`
+- `"" == false` → `true`, but `"" === false` → `false`
+- `null == undefined` → `true`, but `null === undefined` → `false`
+- Objects and primitive values behave differently:  
+  - `new String("Dilakshan") == "Dilakshan"` → `true`
+  - `new String("Dilakshan") === "Dilakshan"` → `false`
+
+## Conclusion:
+
+- Use **`==` (loose equality)** when type conversion is expected.
+- Use **`===` (strict equality)** for precise comparisons to avoid unexpected results.
+- Strict equality (`===`) is preferred for **better code reliability and clarity**.
+
+---------------------------------------------------------------------------------------
