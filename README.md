@@ -544,3 +544,16 @@ This example demonstrates the usage of both traditional `for` loop and `for...of
 - Accessing array elements without needing to manage an index manually.
 
 ---------------------------------------------------------------------------------------
+
+# 28_For in Loop in JavaScript
+This example demonstrates how to use the `for...in` loop to iterate over the properties of an object.
+
+## Key Points:
+- The `for...in` loop is used to iterate over the enumerable properties of an object.
+- The loop provides access to both the property names and their corresponding values.
+
+## Example Use Cases:
+- Iterating over the properties of an object to access or manipulate data.
+- Displaying key-value pairs of an object.
+
+---------------------------------------------------------------------------------------
