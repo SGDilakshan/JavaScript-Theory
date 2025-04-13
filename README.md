@@ -492,3 +492,18 @@ The `while` loop in JavaScript executes a block of code repeatedly as long as th
 - Commonly used for waiting for events or processing dynamic data.
 
 ---------------------------------------------------------------------------------------
+
+# 24_Do While Loop in JavaScript
+The `do...while` loop in JavaScript is a type of loop that executes the code block at least once before checking the condition. It ensures that the block runs at least once, even if the condition is `false` initially.
+
+## Features:
+- Executes the block **at least once** before checking the condition.
+- Useful when the loop body **must run at least once** regardless of the condition.
+- Continues execution **as long as the condition remains true**.
+
+## Use Case:
+The `do...while` loop is ideal when you need to ensure that an operation executes **before** validating a condition, such as:
+- Prompting a user for input until they provide valid data.
+- Performing calculations where at least one iteration is necessary.
+
+---------------------------------------------------------------------------------------
