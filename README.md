@@ -459,3 +459,21 @@ The `switch` statement in JavaScript is used to execute different blocks of code
 The `switch` statement provides a clear and efficient way to handle multiple conditions in JavaScript.
 
 ---------------------------------------------------------------------------------------
+
+# 22_Combining Cases Statement in JavaScript
+## Overview
+In JavaScript, multiple `case` statements in a `switch` block can be combined when they share the same execution code. This helps reduce redundancy and improves readability.
+
+## Use Case
+The technique is useful when multiple values should trigger the same logic, such as checking if a letter is a vowel.
+
+## Example Explanation
+- The program checks if a given letter is a vowel (`a, e, i, o, u, A, E, I, O, U`).
+- If the letter matches any vowel case, it executes the same block of code.
+- If it does not match any, the `default` case executes, indicating it's not a vowel.
+
+## Advantages
+- Avoids repetition in code.
+- Enhances code clarity and maintainability.
+
+---------------------------------------------------------------------------------------
