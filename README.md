@@ -830,3 +830,20 @@ Understanding **block scope** and **function scope** is crucial for managing var
 
 ---------------------------------------------------------------------------------------
 
+# 41_Array in JavaScript
+## Introduction
+JavaScript arrays store multiple values and support various built-in methods for manipulation.
+
+## Key Methods
+- **Iteration:** `forEach`, `map`
+- **Modification:** `push`, `pop`, `shift`, `unshift`, `splice`
+- **Searching:** `indexOf`, `lastIndexOf`, `includes`, `find`, `findIndex`
+- **Transformation:** `slice`, `concat`, `sort`, `reverse`, `join`, `fill`
+- **Filtering & Reducing:** `filter`, `reduce`, `every`, `some`
+- **Utility:** `from`, `isArray`, `flat`
+
+## Conclusion
+Mastering these methods enhances efficiency and readability in JavaScript programming.
+
+---------------------------------------------------------------------------------------
+
