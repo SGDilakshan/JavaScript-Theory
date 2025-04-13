@@ -477,3 +477,18 @@ The technique is useful when multiple values should trigger the same logic, such
 - Enhances code clarity and maintainability.
 
 ---------------------------------------------------------------------------------------
+
+# 23_While Loop In JavaScript
+The `while` loop in JavaScript executes a block of code repeatedly as long as the specified condition evaluates to `true`. It is useful when the number of iterations is not predetermined.
+
+## Key Points:
+- The condition is checked before executing the loop body.
+- If the condition is `false` initially, the loop will not execute at all.
+- The loop continues running until the condition becomes `false`.
+
+## Usage:
+- Used when the number of iterations is unknown beforehand.
+- Helps in scenarios like reading user input until a valid value is provided.
+- Commonly used for waiting for events or processing dynamic data.
+
+---------------------------------------------------------------------------------------
