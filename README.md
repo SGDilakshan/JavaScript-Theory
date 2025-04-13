@@ -572,3 +572,13 @@ This example demonstrates how to iterate over an object's properties by converti
 - Using key-value pairs for processing or manipulation in applications.
 
 ---------------------------------------------------------------------------------------
+
+# 30_Break Statement in JavaScript
+The `break` statement in JavaScript is used to exit a loop immediately when a specific condition is met.
+
+## Key Points:
+- The `break` statement stops the execution of a loop before it naturally completes.
+- Commonly used in `for`, `while`, and `do-while` loops.
+- Helps improve efficiency by preventing unnecessary iterations.
+
+---------------------------------------------------------------------------------------
