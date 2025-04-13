@@ -582,3 +582,18 @@ The `break` statement in JavaScript is used to exit a loop immediately when a sp
 - Helps improve efficiency by preventing unnecessary iterations.
 
 ---------------------------------------------------------------------------------------
+
+# 31_Continue Statement in JavaScript
+The `continue` statement in JavaScript is used to skip the current iteration of a loop and move to the next one.
+
+## Key Points:
+- When `continue` is encountered, the loop skips the rest of the current iteration and proceeds to the next cycle.
+- Commonly used in `for`, `while`, and `do-while` loops.
+- Helps in selectively skipping certain values based on conditions.
+
+## Example Use Cases:
+- Skipping a specific number in a loop.
+- Filtering out unwanted values while iterating over a list.
+- Processing only certain elements in an array or dataset.
+
+---------------------------------------------------------------------------------------
