@@ -612,3 +612,48 @@ The **Label Block** in JavaScript is used to assign a label to a loop or block o
 - Improving readability in complex loop structures.
 
 ---------------------------------------------------------------------------------------
+
+# 33_Math Functions in JavaScript
+## Overview  
+JavaScript provides a set of built-in `Math` functions to perform various mathematical operations efficiently.  
+
+## Key Points  
+- **Mathematical Constants**  
+  - `Math.PI` – Represents the value of π.  
+  - `Math.E` – Represents Euler's number.  
+
+- **Rounding Functions**  
+  - `Math.round(value)` – Rounds to the nearest integer.  
+  - `Math.floor(value)` – Rounds down to the nearest integer.  
+  - `Math.ceil(value)` – Rounds up to the nearest integer.  
+
+- **Basic Operations**  
+  - `Math.sqrt(value)` – Computes the square root.  
+  - `Math.abs(value)` – Returns the absolute value.  
+  - `Math.pow(base, exponent)` – Computes power.  
+  - `Math.trunc(value)` – Removes the decimal part.  
+
+- **Min/Max Functions**  
+  - `Math.min(a, b, c, ...)` – Returns the smallest value.  
+  - `Math.max(a, b, c, ...)` – Returns the largest value.  
+
+- **Random Number Generation**  
+  - `Math.random()` – Generates a random number between `0` and `1`.  
+  - `Math.floor(Math.random() * range + min)` – Generates a random number within a specific range.  
+
+- **Sign Function**  
+  - `Math.sign(value)` – Determines if a number is positive, negative, or zero.  
+
+- **Trigonometric Functions**  
+  - `Math.sin(angle)` – Computes the sine of an angle.  
+  - `Math.cos(angle)` – Computes the cosine of an angle.  
+
+- **Logarithmic Functions**  
+  - `Math.log(value)` – Computes the natural logarithm.  
+  - `Math.log2(value)` – Computes the base-2 logarithm.  
+  - `Math.log10(value)` – Computes the base-10 logarithm.  
+
+## Conclusion  
+JavaScript's `Math` functions provide essential tools for mathematical computations, making it easier to handle calculations, random number generation, and trigonometric operations.  
+
+---------------------------------------------------------------------------------------
