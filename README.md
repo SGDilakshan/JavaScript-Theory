@@ -597,3 +597,18 @@ The `continue` statement in JavaScript is used to skip the current iteration of 
 - Processing only certain elements in an array or dataset.
 
 ---------------------------------------------------------------------------------------
+
+# 32_Label Block in JavaScript
+The **Label Block** in JavaScript is used to assign a label to a loop or block of code, allowing control flow statements like `break` or `continue` to target specific loops.
+
+## Key Points:
+- Labels provide a way to break or continue nested loops explicitly.
+- The `break labelName;` statement exits the labeled loop or block.
+- The `continue labelName;` statement skips the current iteration of the labeled loop.
+
+## Example Use Cases:
+- Exiting deeply nested loops efficiently.
+- Skipping iterations of an outer loop based on conditions.
+- Improving readability in complex loop structures.
+
+---------------------------------------------------------------------------------------
