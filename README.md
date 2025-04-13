@@ -557,3 +557,18 @@ This example demonstrates how to use the `for...in` loop to iterate over the pro
 - Displaying key-value pairs of an object.
 
 ---------------------------------------------------------------------------------------
+
+# 29_Looping over objects by converting to an array
+This example demonstrates how to iterate over an object's properties by converting them into arrays using `Object.keys()` and `Object.values()`.
+
+## Key Points:
+- `Object.keys(object)`: Returns an array of the object's property names.
+- `Object.values(object)`: Returns an array of the object's property values.
+- Looping through the keys array allows access to both keys and values efficiently.
+
+## Example Use Cases:
+- Extracting and displaying object data in a structured format.
+- Iterating over object properties dynamically without knowing their names in advance.
+- Using key-value pairs for processing or manipulation in applications.
+
+---------------------------------------------------------------------------------------
