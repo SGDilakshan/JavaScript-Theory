@@ -507,3 +507,15 @@ The `do...while` loop is ideal when you need to ensure that an operation execute
 - Performing calculations where at least one iteration is necessary.
 
 ---------------------------------------------------------------------------------------
+
+# 25_For Loop in JavaScript
+This README explains the usage of the `for` loop in JavaScript with a few examples.
+## Overview
+
+The `for` loop in JavaScript is used to execute a block of code a specified number of times. The basic syntax of the `for` loop is:
+
+- **Initialization**: Sets the starting point (runs once before the loop starts).
+- **Condition**: Tests whether the loop should continue (evaluated before each iteration).
+- **Increment/Decrement**: Updates the loop variable (runs after each iteration).
+
+---------------------------------------------------------------------------------------
