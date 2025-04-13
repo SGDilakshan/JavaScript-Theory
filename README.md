@@ -532,3 +532,15 @@ This example demonstrates how to create and display a 2D array using nested `for
 - Displaying multi-dimensional data in a structured format.
 
 ---------------------------------------------------------------------------------------
+
+# 27_For of Loop in Javascript
+This example demonstrates the usage of both traditional `for` loop and `for...of` loop to iterate over an array.
+## Key Points:
+- The traditional `for` loop iterates over the array using an index.
+- The `for...of` loop simplifies iteration by directly accessing each element in the array.
+
+## Example Use Cases:
+- Iterating over arrays or collections of data.
+- Accessing array elements without needing to manage an index manually.
+
+---------------------------------------------------------------------------------------
