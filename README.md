@@ -441,3 +441,21 @@ The `nested if` statement in JavaScript is used when one `if` statement is place
 The `nested if` statement allows for structured decision-making where one condition is dependent on another.
 
 ---------------------------------------------------------------------------------------
+
+# 21_Switch Statement in JavaScript
+The `switch` statement in JavaScript is used to execute different blocks of code based on a specific value. It is an alternative to using multiple `if-else` statements when checking for multiple conditions.
+
+## Key Points:
+- The `switch` statement evaluates an expression and matches it with a `case` label.
+- The `case` block executes when a match is found.
+- The `break` statement is used to exit the `switch` block after executing a `case`, preventing fall-through.
+- The `default` case executes if no matches are found.
+
+## Example Use Cases:
+- Handling user input selections (e.g., menu options).
+- Mapping numerical or string values to corresponding outputs.
+- Implementing simple control flow logic in applications.
+
+The `switch` statement provides a clear and efficient way to handle multiple conditions in JavaScript.
+
+---------------------------------------------------------------------------------------
