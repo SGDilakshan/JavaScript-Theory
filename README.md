@@ -519,3 +519,16 @@ The `for` loop in JavaScript is used to execute a block of code a specified numb
 - **Increment/Decrement**: Updates the loop variable (runs after each iteration).
 
 ---------------------------------------------------------------------------------------
+
+# 26_Nested For Loop in JavaScript
+This example demonstrates how to create and display a 2D array using nested `for` loops in JavaScript.
+## Key Points:
+- The outer loop creates 3 rows in the `nums` array.
+- The inner loop fills each row with values (0, 1, 2).
+- The resulting 2D array is logged using `console.log()` and displayed in a table format using `console.table()`.
+
+## Example Use Cases:
+- Populating 2D arrays or grids.
+- Displaying multi-dimensional data in a structured format.
+
+---------------------------------------------------------------------------------------
