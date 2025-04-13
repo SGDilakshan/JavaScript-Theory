@@ -794,15 +794,21 @@ This project demonstrates various JavaScript **arrow functions** and their appli
    - Example: Creating a counter function that maintains state.
 
 ## Usage
-
 - Run the script in a browser console or Node.js environment.
 - Observe the different outputs for each arrow function example.
 
 ## Benefits of Arrow Functions
-
 - **Shorter Syntax**: Reduces boilerplate code.
 - **Lexical `this` Binding**: Arrow functions inherit `this` from their enclosing scope.
 - **Improved Readability**: Makes callback functions more concise.
+
+---------------------------------------------------------------------------------------
+
+# 39_Callback in JavaScript
+This README explains how callback functions are used in JavaScript, including examples of higher-order functions, `setTimeout`, `setInterval`, and `forEach`.
+
+## What is a Callback Function?
+A **callback function** is a function that is passed as an argument to another function and is executed at a later time. The callback function can be invoked once a certain operation or event is completed.
 
 ---------------------------------------------------------------------------------------
 
