@@ -985,3 +985,9 @@ The `sort()` method sorts array elements. By default, it arranges elements as **
 
 ---------------------------------------------------------------------------------------
 
+# 52_Fill in JavaScript
+## **Overview**
+The `fill()` method fills all or part of an array with a static value. It **modifies the original array**.
+
+---------------------------------------------------------------------------------------
+
