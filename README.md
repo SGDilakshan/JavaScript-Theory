@@ -979,3 +979,9 @@ The `concat()` method in JavaScript is used to merge two or more arrays without 
 
 ---------------------------------------------------------------------------------------
 
+# 51_Sort in JavaScript
+## **Overview**
+The `sort()` method sorts array elements. By default, it arranges elements as **strings** in ascending order.
+
+---------------------------------------------------------------------------------------
+
